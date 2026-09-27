@@ -76,7 +76,6 @@ export default function ShiftlineCaseStudy() {
           <div className="shiftline-competitor-row"><strong>Deputy</strong><span>Scheduling, real-time attendance, break planning, compliance, and workforce forecasting.</span><span>Present break timing, role coverage, and upcoming changes as one restaurant-specific operational picture.</span></div>
           <div className="shiftline-competitor-row shiftline-row-highlight"><strong>Shiftline</strong><span>Live shift awareness for restaurant managers.</span><span>Connect current staffing, near-term changes, and coverage conflicts in one decision-oriented workspace.</span></div>
         </div>
-        <p className="shiftline-competitive-note">Competitive review based on publicly documented product capabilities as of September 2026.</p>
       </div>
     </section>
 
