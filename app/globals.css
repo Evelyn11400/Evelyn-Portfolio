@@ -272,3 +272,7 @@
 /* Fix homepage arrows: single clean SVG-like chevron, no doubled shaft */
 
 
+
+
+/* Project card arrow: force monochrome text presentation */
+.project-arrow-char{font-family:Arial,Helvetica,sans-serif!important;font-variant-emoji:text;font-size:1.35rem;font-weight:400;line-height:1;display:block}
