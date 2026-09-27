@@ -309,3 +309,31 @@
 .shiftline-competitor-row span{font-size:.85rem}
 .shiftline-row-highlight{margin:0 -18px;padding:24px 18px}
 }
+
+
+/* Shiftline — role & permission system */
+.shiftline-permissions{padding:135px 0}
+.shiftline-permissions-head{display:grid;grid-template-columns:1.2fr .8fr;gap:80px;align-items:end;margin:28px 0 75px}
+.shiftline-permissions-head h2{font-size:clamp(2.4rem,4vw,4.25rem);line-height:1;letter-spacing:-.055em;margin:0}
+.shiftline-permissions-head p{color:#68716c;line-height:1.7;margin:0}
+.shiftline-permission-story{display:grid;gap:105px}
+.shiftline-permission-story article>span{font-size:.66rem;letter-spacing:.14em;font-weight:800;color:#6c8277}
+.shiftline-permission-story article>h3{font-size:clamp(2rem,3vw,3.2rem);letter-spacing:-.045em;line-height:1.05;margin:15px 0 16px}
+.shiftline-permission-story article>p{max-width:720px;color:#68716c;line-height:1.7;margin:0 0 34px}
+.shiftline-permission-image{background:#edf3ee;border:1px solid #d5dfd8;border-radius:14px;padding:28px;overflow:hidden}
+.shiftline-permission-image img{display:block;width:100%;height:auto;transition:transform .65s cubic-bezier(.16,1,.3,1)}
+.shiftline-permission-story article:hover .shiftline-permission-image img{transform:scale(1.012)}
+.shiftline-permission-takeaway{margin-top:80px;background:#173e34;color:#f5f7f3;border-radius:12px;padding:34px 38px;display:grid;grid-template-columns:180px 1fr;gap:35px;align-items:start}
+.shiftline-permission-takeaway small{font-size:.64rem;letter-spacing:.14em;font-weight:800;color:#dce97b}
+.shiftline-permission-takeaway p{font-size:1.15rem;line-height:1.55;margin:0;max-width:850px}
+@media(max-width:760px){
+.shiftline-permissions{padding:90px 0}
+.shiftline-permissions-head{grid-template-columns:1fr;gap:24px;margin-bottom:55px}
+.shiftline-permissions-head h2{font-size:2.35rem}
+.shiftline-permission-story{gap:75px}
+.shiftline-permission-story article>h3{font-size:2.1rem}
+.shiftline-permission-image{padding:10px;border-radius:9px;overflow-x:auto}
+.shiftline-permission-image img{width:820px;max-width:none}
+.shiftline-permission-takeaway{margin-top:60px;padding:28px 24px;grid-template-columns:1fr;gap:15px}
+.shiftline-permission-takeaway p{font-size:1rem}
+}
