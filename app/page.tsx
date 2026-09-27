@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-const capabilities = ["B2B SaaS", "Consumer Apps", "Workflow UX", "Design Systems"];
+const capabilities = [
+  "UI/UX Design", "B2B SaaS", "Product Strategy", "Growth Design",
+  "Business Models", "User Research", "Workflow UX", "Design Systems",
+  "Consumer Apps", "Mobile Experiences", "User Onboarding", "Conversion UX",
+  "Information Architecture", "Interaction Design", "Prototyping", "Usability Testing",
+];
 
 function TempoPreview() {
   return (
