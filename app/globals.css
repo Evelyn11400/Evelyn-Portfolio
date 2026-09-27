@@ -343,19 +343,16 @@
 .shiftline-competitive-head h2{color:var(--ink)}
 
 
-/* Shiftline product decisions — equal UI sizing, alternating only by side */
+/* Product decisions share one screen size; only the column order changes. */
 @media(min-width:761px){
-  .shiftline-decision,.shiftline-decision.reverse{grid-template-columns:.72fr 1.28fr}
-  .shiftline-decision.reverse .shiftline-product-screen{order:1}
-  .shiftline-decision.reverse .shiftline-decision-copy{order:2}
-  .shiftline-product-screen{width:100%;box-sizing:border-box}
+  .shiftline-decision{grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);grid-template-areas:"copy screen"}
+  .shiftline-decision.reverse{grid-template-columns:minmax(0,1.28fr) minmax(0,.72fr);grid-template-areas:"screen copy"}
+  .shiftline-decision-copy{grid-area:copy;min-width:0}
+  .shiftline-product-screen{grid-area:screen;width:100%;min-width:0;box-sizing:border-box;aspect-ratio:1.366;display:flex;align-items:center}
+  .shiftline-product-screen img{width:100%;height:auto;aspect-ratio:2160 / 1536;object-fit:cover}
 }
-
-
-/* Shiftline alternating decisions — preserve the same visual screen width */
-@media(min-width:761px){
-  .shiftline-decision{grid-template-columns:.72fr 1.28fr}
-  .shiftline-decision.reverse{grid-template-columns:1.28fr .72fr}
-  .shiftline-decision.reverse .shiftline-product-screen{order:1}
-  .shiftline-decision.reverse .shiftline-decision-copy{order:2}
+@media(max-width:760px){
+  .shiftline-decision,.shiftline-decision.reverse{grid-template-areas:"copy" "screen"}
+  .shiftline-decision-copy{grid-area:copy}
+  .shiftline-product-screen{grid-area:screen}
 }
