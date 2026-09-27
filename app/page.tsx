@@ -23,6 +23,19 @@ function ShiftlinePreview() {
   </div>;
 }
 
+function TracePreview() {
+  return <div className="trace-stage" aria-label="Trace AI release review dashboard concept">
+    <div className="trace-preview-window">
+      <div className="trace-preview-top"><span>◈ &nbsp; trace</span><span>ORBIT AI / RELEASES</span><span className="trace-preview-status">REVIEW OPEN</span></div>
+      <div className="trace-preview-body"><div className="trace-preview-label">DEMO DATA · MODEL COMPARISON</div><h4>Ready to ship v2.5?</h4><p>Compare the candidate against the live version.</p>
+        <div className="trace-preview-grid"><div><small>ANSWER QUALITY</small><b className="positive">Improved ↗</b></div><div><small>LATENCY</small><b>Stable →</b></div><div><small>COST</small><b className="caution">Needs review ↗</b></div></div>
+        <div className="trace-preview-row"><span>FLAGGED RESPONSE</span><strong>Policy exception missed</strong><em>Review →</em></div>
+      </div>
+    </div>
+    <span className="trace-stage-label">HUMAN DECISIONS<br/>FOR AI RELEASES</span>
+  </div>;
+}
+
 function TempoPreview() {
   return (
     <div className="tempo-stage" aria-label="Tempo mobile product preview">
@@ -63,6 +76,11 @@ export default function Home() {
         <div className="project-meta"><span>02 Case Study</span><span>Concept · 2026</span></div><ShiftlinePreview/>
         <div className="project-copy"><div><h3>Shiftline</h3><p>A clearer way to run the people side of a restaurant shift.</p></div><span className="project-arrow">↗</span></div>
         <div className="tags"><span>B2B SaaS</span><span>Workflow UX</span><span>Product Strategy</span></div>
+      </Link>
+      <Link className="project-card project-card-third" href="/work/trace">
+        <div className="project-meta"><span>03 Case Study</span><span>Concept · 2026</span></div><TracePreview/>
+        <div className="project-copy"><div><h3>Trace</h3><p>A release review workspace for teams building AI products.</p></div><span className="project-arrow">↗</span></div>
+        <div className="tags"><span>B2B SaaS</span><span>AI Product Design</span><span>Enterprise UX</span></div>
       </Link>
     </section>
     <footer className="footer shell"><p>© 2026 Evelyn Li</p><div><a href="mailto:hello@evelynli.work">Email</a><a href="#top">Back to top ↑</a></div></footer>
