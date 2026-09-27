@@ -79,6 +79,8 @@ export default function ShiftlineCaseStudy() {
       </div>
     </section>
 
+    <section className="shiftline-strategy shiftline-reveal"><div className="shell"><p className="eyebrow">PRODUCT STRATEGY</p><div className="shiftline-strategy-head"><h2>Design around the manager’s operational workflow.</h2><p>Shiftline treats staffing as a connected system. The product moves from understanding the current shift, to identifying operational risk, to supporting the manager’s next decision.</p></div><div className="shiftline-strategy-flow"><span><b>01</b>PLAN</span><i>→</i><span><b>02</b>RUN</span><i>→</i><span><b>03</b>RESOLVE</span><i>→</i><span><b>04</b>REVIEW</span></div></div></section>
+
     <section className="shiftline-permissions shell shiftline-reveal">
       <p className="eyebrow">ROLE & PERMISSION SYSTEM</p>
       <div className="shiftline-permissions-head"><h2>Different roles need different levels of control.</h2><p>Restaurant workforce software contains sensitive employee and operational data. I designed the access model around a simple principle: give each role the information and actions needed for their level of responsibility, while keeping higher-impact controls limited to managers and owners.</p></div>
@@ -88,8 +90,6 @@ export default function ShiftlineCaseStudy() {
       </div>
       <div className="shiftline-permission-takeaway"><small>DESIGN DECISION</small><p>Permissions are part of the product architecture—not an admin setting added later. The role model determines what each user can see, what they can change, and how much operational context they receive.</p></div>
     </section>
-
-    <section className="shiftline-strategy shiftline-reveal"><div className="shell"><p className="eyebrow">PRODUCT STRATEGY</p><div className="shiftline-strategy-head"><h2>Design around the manager’s operational workflow.</h2><p>Shiftline treats staffing as a connected system. The product moves from understanding the current shift, to identifying operational risk, to supporting the manager’s next decision.</p></div><div className="shiftline-strategy-flow"><span><b>01</b>PLAN</span><i>→</i><span><b>02</b>RUN</span><i>→</i><span><b>03</b>RESOLVE</span><i>→</i><span><b>04</b>REVIEW</span></div></div></section>
 
     <section className="shiftline-decisions shell">
       <div className="shiftline-decisions-intro shiftline-reveal"><p className="eyebrow">KEY PRODUCT DECISIONS</p><h2>Three views for the moments that matter during a shift.</h2></div>
