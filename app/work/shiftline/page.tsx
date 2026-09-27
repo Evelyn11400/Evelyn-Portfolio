@@ -53,7 +53,32 @@ export default function ShiftlineCaseStudy() {
       <img src={screens[0].image} alt={screens[0].alt}/>
     </section>
 
-    <section className="case-block shell shiftline-reveal"><p className="eyebrow">THE CHALLENGE</p><div><h2>Restaurant operations are managed across too many disconnected tools.</h2><p>Restaurant managers often coordinate schedules, employee availability, breaks, attendance, and shift changes across spreadsheets, group chats, time clocks, and POS systems.</p><p>Each tool solves one part of the workflow, leaving managers to connect the information manually. A small change can affect station coverage, labor hours, and breaks while service is already moving.</p><p><strong>How might we give managers one operational view of the shift, so they can catch conflicts before they become service problems?</strong></p><p className="shiftline-note">This is an independent concept study informed by restaurant operations experience. It has not been launched or evaluated with formal user testing.</p></div></section>
+    <section className="case-block shell shiftline-reveal"><p className="eyebrow">THE CHALLENGE</p><div><h2>I saw the problem from inside restaurant operations.</h2><p>While working in a restaurant, I worked closely with the day-to-day systems managers rely on to keep service running: schedules, attendance, employee availability, breaks, shift changes, and coverage across front- and back-of-house roles.</p><p>I saw how much of a manager’s attention goes into connecting information that lives in different places. A call-out, late arrival, or break change can quickly become a coverage problem, yet the manager often has to piece together the impact across schedules, messages, time-clock records, and spreadsheets while service is already moving.</p><p>That experience became the starting point for Shiftline: a concept for bringing the operational state of a shift into one clearer system.</p><p><strong>How might we give restaurant managers one operational view of the shift, so they can recognize staffing conflicts before they affect service?</strong></p><p className="shiftline-note">This is an independent concept study informed by my restaurant operations experience. It has not been launched or evaluated with formal user testing.</p></div></section>
+
+    <section className="shiftline-audience shell shiftline-reveal">
+      <p className="eyebrow">TARGET AUDIENCE</p>
+      <div className="shiftline-audience-head"><h2>Managers responsible for keeping a live shift moving.</h2><p>Shiftline is designed around restaurant managers who coordinate people, timing, and coverage throughout the day—not only when the weekly schedule is created.</p></div>
+      <div className="shiftline-audience-grid">
+        <article><span>PRIMARY USER</span><h3>Restaurant General Manager</h3><p>Owns staffing decisions, attendance issues, break timing, and the operational health of the shift.</p></article>
+        <article><span>CONTEXT</span><h3>Full-service restaurants</h3><p>Teams with multiple front- and back-of-house roles where one staffing change can affect several stations at once.</p></article>
+        <article><span>CORE NEED</span><h3>Operational awareness</h3><p>Needs to understand who is working, where coverage is thin, what is changing next, and where intervention is required.</p></article>
+      </div>
+    </section>
+
+    <section className="shiftline-competitive shiftline-reveal">
+      <div className="shell">
+        <p className="eyebrow">COMPETITOR ANALYSIS</p>
+        <div className="shiftline-competitive-head"><h2>Existing tools cover the workforce lifecycle. I focused Shiftline on the live shift.</h2><p>I reviewed established workforce products to understand where Shiftline should fit. The opportunity was not to remove scheduling, time tracking, or break management, but to connect those signals around the manager’s immediate operational decisions.</p></div>
+        <div className="shiftline-competitor-table">
+          <div className="shiftline-competitor-row header"><span>PRODUCT</span><span>STRONG AT</span><span>SHIFTLINE OPPORTUNITY</span></div>
+          <div className="shiftline-competitor-row"><strong>7shifts</strong><span>Restaurant-specific scheduling, availability, time off, shift coverage, and labor compliance.</span><span>Make live operational risk—not only schedule creation—the center of the manager view.</span></div>
+          <div className="shiftline-competitor-row"><strong>Homebase</strong><span>Scheduling, time clocks, break management, team communication, and payroll for hourly teams.</span><span>Reduce the distance between attendance data and the coverage decision a manager needs to make during service.</span></div>
+          <div className="shiftline-competitor-row"><strong>Deputy</strong><span>Scheduling, real-time attendance, break planning, compliance, and workforce forecasting.</span><span>Present break timing, role coverage, and upcoming changes as one restaurant-specific operational picture.</span></div>
+          <div className="shiftline-competitor-row shiftline-row-highlight"><strong>Shiftline</strong><span>Live shift awareness for restaurant managers.</span><span>Connect current staffing, near-term changes, and coverage conflicts in one decision-oriented workspace.</span></div>
+        </div>
+        <p className="shiftline-competitive-note">Competitive review based on publicly documented product capabilities as of September 2026.</p>
+      </div>
+    </section>
 
     <section className="shiftline-strategy shiftline-reveal"><div className="shell"><p className="eyebrow">PRODUCT STRATEGY</p><div className="shiftline-strategy-head"><h2>Design around the manager’s operational workflow.</h2><p>Shiftline treats staffing as a connected system. The product moves from understanding the current shift, to identifying operational risk, to supporting the manager’s next decision.</p></div><div className="shiftline-strategy-flow"><span><b>01</b>PLAN</span><i>→</i><span><b>02</b>RUN</span><i>→</i><span><b>03</b>RESOLVE</span><i>→</i><span><b>04</b>REVIEW</span></div></div></section>
 
