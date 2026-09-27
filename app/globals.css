@@ -60,3 +60,7 @@
 @keyframes tempoScreenFloat{0%,100%{transform:translateY(10px) rotate(-1.2deg)}50%{transform:translateY(-14px) rotate(1deg)}}
 @media(max-width:760px){.tempo-insight-hero{height:620px}.tempo-hero-screen{height:80%}.tempo-pulse-green{width:260px;height:260px;left:-110px;top:-40px}.tempo-pulse-yellow{width:330px;height:330px;right:-145px;bottom:-80px}}
 @media(prefers-reduced-motion:reduce){.tempo-hero-screen,.tempo-pulse-green,.tempo-pulse-yellow{animation:none}}
+
+/* Smaller Tempo design outcome statement */
+.tempo-flow-outcome h2{font-size:clamp(2rem,3.4vw,3.6rem)}
+@media(max-width:760px){.tempo-flow-outcome h2{font-size:2rem}}
