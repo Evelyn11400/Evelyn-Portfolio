@@ -253,12 +253,6 @@
 
 
 /* Homepage UI icons — CSS drawn to avoid platform emoji rendering */
-.arrow-icon{display:inline-block;width:18px;height:18px;position:relative}
-.arrow-icon:before{content:"";position:absolute;width:11px;height:11px;border-right:1.8px solid currentColor;border-bottom:1.8px solid currentColor}
-.arrow-down:before{left:3px;top:1px;transform:rotate(45deg)}
-.arrow-down:after{content:"";position:absolute;left:8px;top:1px;width:1.8px;height:14px;background:currentColor;border-radius:2px}
-.arrow-up-right:before{right:1px;top:1px;transform:rotate(-135deg)}
-.arrow-up-right:after{content:"";position:absolute;left:3px;top:9px;width:14px;height:1.8px;background:currentColor;transform:rotate(-45deg);transform-origin:right center;border-radius:2px}
 .project-arrow{display:grid;place-items:center}
 
 .nav-icon,.inline-flag,.check-icon,.trace-mark{display:inline-block;position:relative;flex:0 0 auto}
@@ -276,43 +270,5 @@
 
 
 /* Fix homepage arrows: single clean SVG-like chevron, no doubled shaft */
-.arrow-icon{display:block;width:18px;height:18px;position:relative}
-.arrow-icon:before{content:"";position:absolute;background:none!important;width:10px;height:10px;border:0;border-right:1.8px solid currentColor;border-bottom:1.8px solid currentColor}
-.arrow-icon:after{content:none!important;display:none!important}
-.arrow-down:before{left:3px;top:1px;transform:rotate(45deg)}
-.arrow-up-right:before{right:2px;top:4px;transform:rotate(-135deg)}
 
 
-/* Homepage arrows — final single-piece line arrows */
-.arrow-icon{display:block;width:22px;height:22px;position:relative}
-.arrow-icon:before{content:"";position:absolute;background:transparent!important;border:0!important;border-radius:0!important}
-.arrow-icon:after{content:"";display:block!important;position:absolute;background:transparent!important;border-radius:0!important}
-.arrow-down:before{left:10px;top:3px;width:1.7px;height:15px;background:currentColor!important}
-.arrow-down:after{left:6px;bottom:3px;width:8px;height:8px;border-right:1.7px solid currentColor!important;border-bottom:1.7px solid currentColor!important;transform:rotate(45deg)}
-.arrow-up-right:before{left:4px;top:10px;width:15px;height:1.7px;background:currentColor!important;transform:rotate(-45deg);transform-origin:center}
-.arrow-up-right:after{right:3px;top:3px;width:8px;height:8px;border-top:1.7px solid currentColor!important;border-right:1.7px solid currentColor!important}
-
-
-/* Hero CTA arrow points right */
-.arrow-right:before{left:3px;top:10px;width:15px;height:1.7px;background:currentColor!important}
-.arrow-right:after{right:3px;top:6px;width:8px;height:8px;border-top:1.7px solid currentColor!important;border-right:1.7px solid currentColor!important;transform:rotate(45deg)}
-
-
-/* Stable hero CTA arrow — SVG avoids pseudo-element conflicts */
-.hero-arrow-svg{display:block;width:24px;height:24px;overflow:visible}
-.hero-arrow-svg path{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-
-
-/* Hero CTA arrow: explicit SVG primitives */
-.circle-link .hero-arrow-svg{display:block!important;width:30px!important;height:24px!important;overflow:visible!important}
-.circle-link .hero-arrow-svg line,.circle-link .hero-arrow-svg polyline{fill:none!important;stroke:currentColor!important;stroke-width:2!important;stroke-linecap:round!important;stroke-linejoin:round!important}
-
-
-/* Hero CTA: reliable monochrome right-arrow glyph */
-.circle-link .hero-arrow-glyph{display:block;font-family:Arial,Helvetica,sans-serif!important;font-size:30px!important;font-weight:300!important;line-height:1!important;letter-spacing:0!important;font-style:normal!important;font-variant-emoji:text;color:currentColor;transform:translateY(-1px)}
-
-
-/* Hero CTA arrow — isolated elements, unaffected by global pseudo-element rules */
-.circle-link .hero-arrow-fixed{position:relative!important;display:block!important;width:28px!important;height:20px!important;transform:none!important}
-.circle-link .hero-arrow-fixed .hero-arrow-shaft{position:absolute!important;display:block!important;left:1px!important;top:9px!important;width:24px!important;height:2px!important;background:currentColor!important;border:0!important;transform:none!important}
-.circle-link .hero-arrow-fixed .hero-arrow-head{position:absolute!important;display:block!important;right:1px!important;top:4px!important;width:10px!important;height:10px!important;background:transparent!important;border-top:2px solid currentColor!important;border-right:2px solid currentColor!important;border-bottom:0!important;border-left:0!important;transform:rotate(45deg)!important}
