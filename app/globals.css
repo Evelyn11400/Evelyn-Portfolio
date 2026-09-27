@@ -41,3 +41,7 @@
 .tempo-screen{width:min(100%,520px);margin:auto;display:flex;justify-content:center;align-items:center}
 .tempo-screen img{display:block;width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 28px 45px rgba(55,48,82,.13))}
 @media(max-width:760px){.tempo-screen{width:min(88vw,440px)}}
+
+
+/* Tempo future research */
+.tempo-next h2{max-width:800px;margin-bottom:55px}.tempo-next-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-bottom:55px}.tempo-next-grid article{border-top:1px solid rgba(255,255,255,.3);padding:24px 0 35px}.tempo-next-grid span{font-size:.68rem;letter-spacing:.12em;opacity:.65;font-weight:800}.tempo-next-grid h3{font-size:1.55rem;line-height:1.15;letter-spacing:-.035em;margin:24px 0 14px}.tempo-next-grid p{max-width:500px;line-height:1.65;opacity:.7;margin:0}@media(max-width:760px){.tempo-next-grid{grid-template-columns:1fr}.tempo-next h2{margin-bottom:35px}}
