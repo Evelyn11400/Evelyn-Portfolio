@@ -19,6 +19,7 @@ export default function TempoCaseStudy(){return <main className="case-study">
       <div className="tempo-research-question"><small>CORE RESEARCH QUESTION</small><h2>How might we help people understand the relationship between commitments, energy consumption, and recovery <em>before</em> their schedule becomes overwhelming?</h2></div>
     </div>
   </section>
+  <section className="case-block shell two-col"><p className="eyebrow">THE SOLUTION</p><div><h2>A calendar with a personal energy layer.</h2><p>Tempo helps people reflect on how plans affect their energy, spot draining patterns across the week, and make room to recharge in the way that works for them.</p><div className="insight-row"><span><b>01</b>See weekly pressure</span><span><b>02</b>Map personal energy</span><span><b>03</b>Protect recovery time</span></div></div></section>
   <section className="tempo-flow">
     <div className="shell">
       <p className="eyebrow">USER FLOW · FROM SCHEDULE TO PRESSURE</p>
@@ -53,6 +54,6 @@ export default function TempoCaseStudy(){return <main className="case-study">
       <div className="tempo-flow-outcome"><small>DESIGN OUTCOME</small><h2>Tempo turns a calendar from a record of where your time goes into a reflection of how your life actually feels.</h2></div>
     </div>
   </section>
-  <section className="case-block shell two-col"><p className="eyebrow">THE SOLUTION</p><div><h2>A calendar with a personal energy layer.</h2><p>Tempo helps people reflect on how plans affect their energy, spot draining patterns across the week, and make room to recharge in the way that works for them.</p><div className="insight-row"><span><b>01</b>See weekly pressure</span><span><b>02</b>Map personal energy</span><span><b>03</b>Protect recovery time</span></div></div></section>
+  
   <section className="case-ending"><div className="shell"><p>CASE STUDY IN PROGRESS</p><h2>Research, testing, and final interface explorations are being documented as the product develops.</h2><Link href="/">Return home ↗</Link></div></section>
 </main>}
