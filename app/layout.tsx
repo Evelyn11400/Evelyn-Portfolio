@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Evelyn Li — Product Designer",
-  description: "Product designer focused on B2B SaaS, enterprise workflows, and scalable design systems.",
+  description: "Evelyn Li is a product designer creating clear tools for complex workflows and thoughtful consumer experiences.",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
 
