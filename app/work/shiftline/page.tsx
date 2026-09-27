@@ -93,7 +93,7 @@ export default function ShiftlineCaseStudy() {
 
     <section className="shiftline-decisions shell">
       <div className="shiftline-decisions-intro shiftline-reveal"><p className="eyebrow">KEY PRODUCT DECISIONS</p><h2>Three views for the moments that matter during a shift.</h2></div>
-      {screens.map((screen,index)=><article className={"shiftline-decision "+(index%2 ? "reverse" : "")} key={screen.step}>
+      {screens.map((screen,index)=><article className={"shiftline-decision "+(index%2 ? "reverse image-first" : "")} key={screen.step}>
         <div className="shiftline-decision-copy"><span>{screen.step} · {screen.eyebrow}</span><h3>{screen.title}</h3><p>{screen.body}</p><p className="shiftline-decision-detail">{screen.detail}</p></div>
         <div className="shiftline-product-screen"><img src={screen.image} alt={screen.alt}/></div>
       </article>)}
