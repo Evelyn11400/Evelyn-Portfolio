@@ -62,7 +62,7 @@ export default function Home() {
     <section className="hero shell home-hero-motion" id="top">
       <div className="availability home-reveal home-reveal-1"><span/> AVAILABLE FOR UI/UX DESIGN ROLES</div>
       <h1 className="home-hero-title"><span className="hero-line home-reveal home-reveal-2">UI/UX designer</span><span className="hero-line home-reveal home-reveal-3">for <em>work <br className="mobile-break"/>and life.</em></span></h1>
-      <div className="hero-bottom home-reveal home-reveal-4"><p>I’m Evelyn Li. I connect <strong>SaaS product design</strong>, <strong>business models</strong>, and user needs to create new paths to <strong>growth</strong>.</p><a className="circle-link" href="#work" aria-label="View selected work"><svg className="hero-arrow-svg" viewBox="0 0 32 24" aria-hidden="true"><line x1="3" y1="12" x2="27" y2="12"/><polyline points="20,5 27,12 20,19"/></svg></a></div>
+      <div className="hero-bottom home-reveal home-reveal-4"><p>I’m Evelyn Li. I connect <strong>SaaS product design</strong>, <strong>business models</strong>, and user needs to create new paths to <strong>growth</strong>.</p><a className="circle-link" href="#work" aria-label="View selected work"><span className="hero-arrow-glyph" aria-hidden="true">→</span></a></div>
     </section>
     <div className="ticker home-reveal home-reveal-5" aria-hidden="true"><div>{[...capabilities,...capabilities].map((item,i)=><span key={`${item}-${i}`}>{item}<b>✦</b></span>)}</div></div>
     <section className="work-section shell" id="work">
