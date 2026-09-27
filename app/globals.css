@@ -281,3 +281,13 @@
 .arrow-icon:after{content:none!important;display:none!important}
 .arrow-down:before{left:3px;top:1px;transform:rotate(45deg)}
 .arrow-up-right:before{right:2px;top:4px;transform:rotate(-135deg)}
+
+
+/* Homepage arrows — final single-piece line arrows */
+.arrow-icon{display:block;width:22px;height:22px;position:relative}
+.arrow-icon:before{content:"";position:absolute;background:transparent!important;border:0!important;border-radius:0!important}
+.arrow-icon:after{content:"";display:block!important;position:absolute;background:transparent!important;border-radius:0!important}
+.arrow-down:before{left:10px;top:3px;width:1.7px;height:15px;background:currentColor!important}
+.arrow-down:after{left:6px;bottom:3px;width:8px;height:8px;border-right:1.7px solid currentColor!important;border-bottom:1.7px solid currentColor!important;transform:rotate(45deg)}
+.arrow-up-right:before{left:4px;top:10px;width:15px;height:1.7px;background:currentColor!important;transform:rotate(-45deg);transform-origin:center}
+.arrow-up-right:after{right:3px;top:3px;width:8px;height:8px;border-top:1.7px solid currentColor!important;border-right:1.7px solid currentColor!important}
