@@ -79,6 +79,16 @@ export default function ShiftlineCaseStudy() {
       </div>
     </section>
 
+    <section className="shiftline-permissions shell shiftline-reveal">
+      <p className="eyebrow">ROLE & PERMISSION SYSTEM</p>
+      <div className="shiftline-permissions-head"><h2>Different roles need different levels of control.</h2><p>Restaurant workforce software contains sensitive employee and operational data. I designed the access model around a simple principle: give each role the information and actions needed for their level of responsibility, while keeping higher-impact controls limited to managers and owners.</p></div>
+      <div className="shiftline-permission-story">
+        <article><span>01 · ROLE HIERARCHY</span><h3>Start with responsibility.</h3><p>The hierarchy establishes who is responsible for business oversight, restaurant operations, live-shift decisions, and personal workforce tasks. This creates the foundation for consistent permissions across the product.</p><div className="shiftline-permission-image"><img src="/tempo/Role%20hierarchy.png" alt="Shiftline role hierarchy showing access levels across restaurant workforce roles"/></div></article>
+        <article><span>02 · PRODUCT ACCESS</span><h3>Translate roles into product access.</h3><p>I then mapped those responsibilities to product areas. Managers can act on operational issues, while employee access stays focused on personal schedules, time, availability, and shift-related tasks. This keeps the interface relevant to each user and reduces unnecessary controls.</p><div className="shiftline-permission-image"><img src="/tempo/Product%20access.png" alt="Shiftline product access matrix showing permissions by role and product area"/></div></article>
+      </div>
+      <div className="shiftline-permission-takeaway"><small>DESIGN DECISION</small><p>Permissions are part of the product architecture—not an admin setting added later. The role model determines what each user can see, what they can change, and how much operational context they receive.</p></div>
+    </section>
+
     <section className="shiftline-strategy shiftline-reveal"><div className="shell"><p className="eyebrow">PRODUCT STRATEGY</p><div className="shiftline-strategy-head"><h2>Design around the manager’s operational workflow.</h2><p>Shiftline treats staffing as a connected system. The product moves from understanding the current shift, to identifying operational risk, to supporting the manager’s next decision.</p></div><div className="shiftline-strategy-flow"><span><b>01</b>PLAN</span><i>→</i><span><b>02</b>RUN</span><i>→</i><span><b>03</b>RESOLVE</span><i>→</i><span><b>04</b>REVIEW</span></div></div></section>
 
     <section className="shiftline-decisions shell">
