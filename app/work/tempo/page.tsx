@@ -8,7 +8,7 @@ export default function TempoCaseStudy(){return <main className="case-study">
   <section className="tempo-research">
     <div className="shell">
       <div className="tempo-research-head"><p className="eyebrow">USER RESEARCH</p><div><h2>Understanding how busy people plan around their energy.</h2><p>I focused on busy students and working professionals aged 18–35 whose weeks combine work, study, social commitments, personal responsibilities, and downtime. The audience was defined by a shared behavior: regularly managing competing demands on their time.</p></div></div>
-      <div className="tempo-audience"><span>18–35</span><div><small>TARGET AUDIENCE</small><strong>Busy students &amp;<br/>working professionals</strong></div></div>
+      <div className="tempo-audience"><span>18–35 <small>YEARS OLD</small></span><div><small>TARGET AUDIENCE</small><strong>Busy students &amp;<br/>working professionals</strong></div></div>
       <div className="tempo-research-goals">
         <article><span>01</span><h3>Planning</h3><p>How do people decide whether they have capacity for another commitment?</p></article>
         <article><span>02</span><h3>Energy</h3><p>Which activities tend to consume or restore their energy?</p></article>
