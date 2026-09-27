@@ -64,3 +64,25 @@
 /* Smaller Tempo design outcome statement */
 .tempo-flow-outcome h2{font-size:clamp(2rem,3.4vw,3.6rem)}
 @media(max-width:760px){.tempo-flow-outcome h2{font-size:2rem}}
+
+
+/* Tempo case study — calmer heading scale */
+.case-study .case-hero h1{font-size:clamp(3.4rem,6vw,6.4rem)}
+.case-study .case-block h2{font-size:clamp(2.35rem,4vw,4.35rem)}
+.case-study .tempo-research-head h2{font-size:clamp(2.35rem,4vw,4.15rem)}
+.case-study .tempo-method h3{font-size:2rem}
+.case-study .tempo-research-question h2{font-size:clamp(1.9rem,3.2vw,3.35rem)}
+.case-study .tempo-flow-intro h2{font-size:clamp(2.5rem,4.4vw,4.65rem)}
+.case-study .tempo-feature-copy h3{font-size:clamp(2rem,3.25vw,3.45rem)}
+.case-study .tempo-flow-outcome h2{font-size:clamp(1.85rem,2.9vw,3rem)}
+.case-study .case-ending h2{font-size:clamp(2rem,3.5vw,3.65rem)}
+.case-study .tempo-next-grid h3{font-size:1.4rem}
+@media(max-width:760px){
+.case-study .case-hero h1{font-size:3rem}
+.case-study .case-block h2,.case-study .tempo-research-head h2{font-size:2.3rem}
+.case-study .tempo-research-question h2{font-size:1.9rem}
+.case-study .tempo-flow-intro h2{font-size:2.35rem}
+.case-study .tempo-feature-copy h3{font-size:2.15rem}
+.case-study .tempo-flow-outcome h2{font-size:1.85rem}
+.case-study .case-ending h2{font-size:2.15rem}
+}
