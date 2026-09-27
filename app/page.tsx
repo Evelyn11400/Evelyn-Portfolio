@@ -28,7 +28,7 @@ export default function Home() {
     <section className="hero shell" id="top">
       <div className="availability"><span/> AVAILABLE FOR UI/UX DESIGN ROLES</div>
       <h1>UI/UX designer<br/>for <em>work <br className="mobile-break"/>and life.</em></h1>
-      <div className="hero-bottom"><p>I’m Evelyn Li. I connect <strong>SaaS product design</strong> with <strong>business models</strong> and user needs to shape products that open new paths to <strong>growth</strong>.</p><a className="circle-link" href="#work" aria-label="View selected work">↓</a></div>
+      <div className="hero-bottom"><p>I’m Evelyn Li. I connect <strong>SaaS product design</strong>, <strong>business models</strong>, and user needs to create new paths to <strong>growth</strong>.</p><a className="circle-link" href="#work" aria-label="View selected work">↓</a></div>
     </section>
     <div className="ticker" aria-hidden="true"><div>{[...capabilities,...capabilities].map((item,i)=><span key={`${item}-${i}`}>{item}<b>✦</b></span>)}</div></div>
     <section className="work-section shell" id="work">
