@@ -296,3 +296,8 @@
 /* Hero CTA arrow points right */
 .arrow-right:before{left:3px;top:10px;width:15px;height:1.7px;background:currentColor!important}
 .arrow-right:after{right:3px;top:6px;width:8px;height:8px;border-top:1.7px solid currentColor!important;border-right:1.7px solid currentColor!important;transform:rotate(45deg)}
+
+
+/* Stable hero CTA arrow — SVG avoids pseudo-element conflicts */
+.hero-arrow-svg{display:block;width:24px;height:24px;overflow:visible}
+.hero-arrow-svg path{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
