@@ -35,3 +35,9 @@
 @media(max-width:760px){.tempo-flow{padding:90px 0}.tempo-flow-intro,.tempo-feature{grid-template-columns:1fr;gap:45px}.tempo-flow-intro{align-items:start}.tempo-flow-intro h2{font-size:2.8rem}.tempo-flow-steps{overflow:auto;justify-content:flex-start;white-space:nowrap}.tempo-feature{padding:80px 0}.tempo-feature.reverse .tempo-feature-copy{order:0}.tempo-feature-copy h3{font-size:2.65rem}.tempo-ui-card{min-height:0;padding:28px;border-radius:28px}.tempo-ui-card>strong{font-size:1.85rem}.tempo-flow-outcome{margin-top:75px;padding:35px 25px}.tempo-flow-outcome h2{font-size:2.4rem}}
 
 .tempo-screen{display:flex;justify-content:center;align-items:center;min-height:620px}.tempo-screen img{display:block;width:min(100%,420px);height:auto;border-radius:38px;box-shadow:0 28px 70px rgba(69,60,105,.16)}@media(max-width:760px){.tempo-screen{min-height:0}.tempo-screen img{width:min(100%,360px);border-radius:28px}}
+
+
+/* Original Tempo Figma screens */
+.tempo-screen{width:min(100%,520px);margin:auto;display:flex;justify-content:center;align-items:center}
+.tempo-screen img{display:block;width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 28px 45px rgba(55,48,82,.13))}
+@media(max-width:760px){.tempo-screen{width:min(88vw,440px)}}
