@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Evelyn Li — Product Designer",
-  description: "Evelyn Li is a product designer creating clear tools for complex workflows and thoughtful consumer experiences.",
+  title: "Evelyn Li — UI/UX Designer",
+  description: "Evelyn Li is a UI/UX designer creating clear workflows and thoughtful digital experiences for work and everyday life.",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
 
