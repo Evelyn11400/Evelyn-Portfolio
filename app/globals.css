@@ -350,3 +350,12 @@
   .shiftline-decision.reverse .shiftline-decision-copy{order:2}
   .shiftline-product-screen{width:100%;box-sizing:border-box}
 }
+
+
+/* Shiftline alternating decisions — preserve the same visual screen width */
+@media(min-width:761px){
+  .shiftline-decision{grid-template-columns:.72fr 1.28fr}
+  .shiftline-decision.reverse{grid-template-columns:1.28fr .72fr}
+  .shiftline-decision.reverse .shiftline-product-screen{order:1}
+  .shiftline-decision.reverse .shiftline-decision-copy{order:2}
+}
