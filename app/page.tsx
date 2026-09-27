@@ -39,7 +39,7 @@ export default function Home() {
     <section className="work-section shell" id="work">
       <div className="section-heading"><span>01</span><h2>Selected work</h2><p>Research-led products shaped through systems thinking and visual craft.</p></div>
       <Link className="project-card" href="/work/tempo">
-        <div className="project-meta"><span>01 / Mobile Product</span><span>2026</span></div><TempoPreview/>
+        <div className="project-meta"><span>01 Case Study</span><span>2025</span></div><TempoPreview/>
         <div className="project-copy"><div><h3>Tempo</h3><p>Planning life around energy, not just time.</p></div><span className="project-arrow">↗</span></div>
         <div className="tags"><span>UX Research</span><span>Product Strategy</span><span>Mobile UI</span></div>
       </Link>
