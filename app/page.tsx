@@ -59,25 +59,25 @@ function TempoPreview() {
 export default function Home() {
   return <main>
     <header className="site-nav shell"><Link className="wordmark" href="#top" aria-label="Evelyn Li home">EL<span>.</span></Link><nav aria-label="Main navigation"><Link href="#work">Work</Link><Link href="/about">About</Link><a href="mailto:hello@evelynli.work">Contact</a></nav></header>
-    <section className="hero shell" id="top">
-      <div className="availability"><span/> AVAILABLE FOR UI/UX DESIGN ROLES</div>
-      <h1>UI/UX designer<br/>for <em>work <br className="mobile-break"/>and life.</em></h1>
-      <div className="hero-bottom"><p>I’m Evelyn Li. I connect <strong>SaaS product design</strong>, <strong>business models</strong>, and user needs to create new paths to <strong>growth</strong>.</p><a className="circle-link" href="#work" aria-label="View selected work">↓</a></div>
+    <section className="hero shell home-hero-motion" id="top">
+      <div className="availability home-reveal home-reveal-1"><span/> AVAILABLE FOR UI/UX DESIGN ROLES</div>
+      <h1 className="home-hero-title"><span className="hero-line home-reveal home-reveal-2">UI/UX designer</span><span className="hero-line home-reveal home-reveal-3">for <em>work <br className="mobile-break"/>and life.</em></span></h1>
+      <div className="hero-bottom home-reveal home-reveal-4"><p>I’m Evelyn Li. I connect <strong>SaaS product design</strong>, <strong>business models</strong>, and user needs to create new paths to <strong>growth</strong>.</p><a className="circle-link" href="#work" aria-label="View selected work">↓</a></div>
     </section>
-    <div className="ticker" aria-hidden="true"><div>{[...capabilities,...capabilities].map((item,i)=><span key={`${item}-${i}`}>{item}<b>✦</b></span>)}</div></div>
+    <div className="ticker home-reveal home-reveal-5" aria-hidden="true"><div>{[...capabilities,...capabilities].map((item,i)=><span key={`${item}-${i}`}>{item}<b>✦</b></span>)}</div></div>
     <section className="work-section shell" id="work">
       <div className="section-heading"><span>01</span><h2>Selected work</h2><p>Research-led products shaped through systems thinking and visual craft.</p></div>
-      <Link className="project-card" href="/work/tempo">
+      <Link className="project-card motion-project-card" href="/work/tempo">
         <div className="project-meta"><span>01 Case Study</span><span>2025</span></div><TempoPreview/>
         <div className="project-copy"><div><h3>Tempo</h3><p>Planning life around energy, not just time.</p></div><span className="project-arrow">↗</span></div>
         <div className="tags"><span>UX Research</span><span>Product Strategy</span><span>Mobile UI</span></div>
       </Link>
-      <Link className="project-card project-card-second" href="/work/shiftline">
+      <Link className="project-card project-card-second motion-project-card" href="/work/shiftline">
         <div className="project-meta"><span>02 Case Study</span><span>Concept · 2026</span></div><ShiftlinePreview/>
         <div className="project-copy"><div><h3>Shiftline</h3><p>A clearer way to run the people side of a restaurant shift.</p></div><span className="project-arrow">↗</span></div>
         <div className="tags"><span>B2B SaaS</span><span>Workflow UX</span><span>Product Strategy</span></div>
       </Link>
-      <Link className="project-card project-card-third" href="/work/trace">
+      <Link className="project-card project-card-third motion-project-card" href="/work/trace">
         <div className="project-meta"><span>03 Case Study</span><span>Concept · 2026</span></div><TracePreview/>
         <div className="project-copy"><div><h3>Trace</h3><p>A release review workspace for teams building AI products.</p></div><span className="project-arrow">↗</span></div>
         <div className="tags"><span>B2B SaaS</span><span>AI Product Design</span><span>Enterprise UX</span></div>
