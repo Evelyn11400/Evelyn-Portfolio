@@ -27,27 +27,27 @@ export default function TempoCaseStudy(){return <main className="case-study">
 
       <article className="tempo-feature">
         <div className="tempo-feature-copy"><span>01 · CONNECT</span><h3>No second calendar to maintain.</h3><p>Users can bring in Google Calendar, Apple Calendar, or Outlook. Tempo reads the time and event structure they already use, reducing the setup burden for people who are already managing busy schedules.</p><p className="tempo-detail"><b>Design detail</b> Calendar connection happens at the beginning of onboarding, while a privacy message makes the data relationship visible before users continue.</p></div>
-        <div className="tempo-screen"><img src="/tempo/connect-calendar.webp" alt="Tempo onboarding screen for connecting Google, Apple, and Outlook calendars" /></div>
+        <div className="tempo-screen"><img src="/tempo/06%20%C2%B7%20Connect%20Calendar.png" alt="Tempo onboarding screen for connecting Google, Apple, and Outlook calendars" /></div>
       </article>
 
       <article className="tempo-feature reverse">
         <div className="tempo-feature-copy"><span>02 · PERSONALIZE</span><h3>The same schedule can feel different to different people.</h3><p>Before Tempo interprets the calendar, users establish a simple energy baseline. This gives the system a personal starting point instead of assuming that everyone has the same capacity.</p><p className="tempo-detail"><b>Design detail</b> Low, Medium, and High are framed in everyday language. The baseline can change as routines shift, keeping the model flexible rather than treating the first answer as permanent.</p></div>
-        <div className="tempo-screen"><img src="/tempo/energy-baseline.webp" alt="Tempo energy baseline onboarding screen" /></div>
+        <div className="tempo-screen"><img src="/tempo/07%20%C2%B7%20Energy%20Baseline.png" alt="Tempo energy baseline onboarding screen" /></div>
       </article>
 
       <article className="tempo-feature">
         <div className="tempo-feature-copy"><span>03 · ANALYZE</span><h3>Time alone doesn’t tell the full story.</h3><p>A one-hour presentation may demand more energy than a longer lunch break. Tempo translates existing events into Moderate, High, or Recovery moments and summarizes the combined demand as Daily Pressure.</p><p className="tempo-detail"><b>Design detail</b> The 72% pressure score gives users one immediate signal, while event-level labels explain where that pressure comes from. Recovery appears in the same hierarchy as meetings and social plans.</p></div>
-        <div className="tempo-screen"><img src="/tempo/today.webp" alt="Tempo Today screen showing daily pressure and event energy levels" /></div>
+        <div className="tempo-screen"><img src="/tempo/09%20%C2%B7%20Today.png" alt="Tempo Today screen showing daily pressure and event energy levels" /></div>
       </article>
 
       <article className="tempo-feature reverse">
         <div className="tempo-feature-copy"><span>04 · SURFACE PRESSURE</span><h3>Make future pressure visible before it becomes exhaustion.</h3><p>The weekly view expands the same energy language across several days. Small color signals make high-demand days visible without requiring users to inspect every event individually.</p><p className="tempo-detail"><b>Design detail</b> Thursday is surfaced as the highest-demand day while the underlying events remain visible. Users can move between the weekly signal and the commitments creating it.</p></div>
-        <div className="tempo-ui-card tempo-week-ui"><strong>Your Week</strong><div className="tempo-week-days"><i>M<small>22</small></i><i>T<small>23</small></i><i>W<small>24</small></i><i className="active">T<small>25</small></i><i>F<small>26</small></i></div><em>Thursday · High</em><p>4 scheduled moments</p><p className="note">This week looks manageable. Thursday has the highest energy demand.</p></div>
+        <div className="tempo-screen"><img src="/tempo/10%20%C2%B7%20Calendar.png" alt="Tempo weekly calendar showing energy demand across the week" /></div>
       </article>
 
       <article className="tempo-feature">
         <div className="tempo-feature-copy"><span>05 · LEARN</span><h3>Turn calendar data into patterns people can act on.</h3><p>Insights move beyond showing what happened. Tempo identifies recurring pressure, demanding activity types, and recovery habits so users can understand why certain weeks feel harder than others.</p><p className="tempo-detail"><b>Design detail</b> Insights are written as plain-language observations: the busiest day, the most demanding activity, and a helpful recovery habit. This keeps the output actionable instead of presenting another analytics dashboard to decode.</p></div>
-        <div className="tempo-screen"><img src="/tempo/insights.webp" alt="Tempo Insights screen showing weekly energy patterns" /></div>
+        <div className="tempo-screen"><img src="/tempo/16%20%C2%B7%20Insights.png" alt="Tempo Insights screen showing weekly energy patterns" /></div>
       </article>
 
       <div className="tempo-flow-outcome"><small>DESIGN OUTCOME</small><h2>Tempo turns a calendar from a record of where your time goes into a reflection of how your life actually feels.</h2></div>
