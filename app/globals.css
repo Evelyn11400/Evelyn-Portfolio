@@ -86,3 +86,42 @@
 .case-study .tempo-flow-outcome h2{font-size:1.85rem}
 .case-study .case-ending h2{font-size:2.15rem}
 }
+
+
+/* Homepage motion system — motion-web: restrained, input-aware, static-first */
+.home-hero-title{overflow:visible}
+.home-hero-title .hero-line{display:block;transform-origin:left bottom}
+.home-reveal{opacity:0;animation:homeReveal .9s cubic-bezier(.16,1,.3,1) forwards}
+.home-reveal-1{animation-delay:.08s}.home-reveal-2{animation-delay:.16s}.home-reveal-3{animation-delay:.27s}.home-reveal-4{animation-delay:.42s}.home-reveal-5{animation-delay:.58s}
+.home-hero-title{animation:none!important}
+@keyframes homeReveal{from{opacity:0;transform:translateY(28px);filter:blur(5px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}
+
+.motion-project-card{position:relative;transform:translateZ(0)}
+.motion-project-card .tempo-stage,.motion-project-card .shiftline-stage,.motion-project-card .trace-stage{transition:transform .65s cubic-bezier(.16,1,.3,1),box-shadow .65s cubic-bezier(.16,1,.3,1)}
+.motion-project-card:hover .tempo-stage,.motion-project-card:hover .shiftline-stage,.motion-project-card:hover .trace-stage{transform:translateY(-8px);box-shadow:0 28px 70px rgba(18,18,18,.10)}
+.motion-project-card .project-copy h3,.motion-project-card .project-copy p,.motion-project-card .tags{transition:transform .5s cubic-bezier(.16,1,.3,1)}
+.motion-project-card:hover .project-copy h3{transform:translateX(8px)}
+.motion-project-card:hover .project-copy p,.motion-project-card:hover .tags{transform:translateX(4px)}
+
+.section-heading,.motion-project-card{animation:homeScrollReveal linear both;animation-timeline:view();animation-range:entry 4% cover 24%}
+@keyframes homeScrollReveal{from{opacity:.15;transform:translateY(52px)}to{opacity:1;transform:translateY(0)}}
+
+.circle-link{animation:homeArrowBreathe 2.8s ease-in-out infinite}
+@keyframes homeArrowBreathe{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+.circle-link:hover{animation-play-state:paused;transform:translateY(4px) scale(1.05)}
+
+@supports (animation-timeline:view()){
+  .motion-project-card .project-meta{animation:metaSlide linear both;animation-timeline:view();animation-range:entry 8% cover 22%}
+  @keyframes metaSlide{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:translateX(0)}}
+}
+
+@media(max-width:760px){
+  .home-reveal{animation-duration:.72s}
+  .section-heading,.motion-project-card{animation-range:entry 2% cover 18%}
+  .motion-project-card:hover .tempo-stage,.motion-project-card:hover .shiftline-stage,.motion-project-card:hover .trace-stage{transform:none;box-shadow:none}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .home-reveal,.section-heading,.motion-project-card,.motion-project-card .project-meta,.circle-link{animation:none!important;opacity:1!important;transform:none!important;filter:none!important}
+  .motion-project-card .tempo-stage,.motion-project-card .shiftline-stage,.motion-project-card .trace-stage,.motion-project-card .project-copy h3,.motion-project-card .project-copy p,.motion-project-card .tags{transition:none!important}
+}
