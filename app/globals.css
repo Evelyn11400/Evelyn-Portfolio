@@ -310,3 +310,9 @@
 
 /* Hero CTA: reliable monochrome right-arrow glyph */
 .circle-link .hero-arrow-glyph{display:block;font-family:Arial,Helvetica,sans-serif!important;font-size:30px!important;font-weight:300!important;line-height:1!important;letter-spacing:0!important;font-style:normal!important;font-variant-emoji:text;color:currentColor;transform:translateY(-1px)}
+
+
+/* Hero CTA arrow — isolated elements, unaffected by global pseudo-element rules */
+.circle-link .hero-arrow-fixed{position:relative!important;display:block!important;width:28px!important;height:20px!important;transform:none!important}
+.circle-link .hero-arrow-fixed .hero-arrow-shaft{position:absolute!important;display:block!important;left:1px!important;top:9px!important;width:24px!important;height:2px!important;background:currentColor!important;border:0!important;transform:none!important}
+.circle-link .hero-arrow-fixed .hero-arrow-head{position:absolute!important;display:block!important;right:1px!important;top:4px!important;width:10px!important;height:10px!important;background:transparent!important;border-top:2px solid currentColor!important;border-right:2px solid currentColor!important;border-bottom:0!important;border-left:0!important;transform:rotate(45deg)!important}
