@@ -26,9 +26,9 @@ export default function Home() {
   return <main>
     <header className="site-nav shell"><Link className="wordmark" href="#top" aria-label="Evelyn Li home">EL<span>.</span></Link><nav aria-label="Main navigation"><Link href="#work">Work</Link><Link href="#about">About</Link><a href="mailto:hello@evelynli.work">Contact</a></nav></header>
     <section className="hero shell" id="top">
-      <div className="availability"><span/> AVAILABLE FOR PRODUCT DESIGN ROLES</div>
-      <h1>Product designer<br/>for <em>work <br className="mobile-break"/>and life.</em></h1>
-      <div className="hero-bottom"><p>I’m Evelyn Li. I turn complex workflows into usable tools and everyday needs into thoughtful consumer experiences.</p><a className="circle-link" href="#work" aria-label="View selected work">↓</a></div>
+      <div className="availability"><span/> AVAILABLE FOR UI/UX DESIGN ROLES</div>
+      <h1>UI/UX designer<br/>for <em>work <br className="mobile-break"/>and life.</em></h1>
+      <div className="hero-bottom"><p>I’m Evelyn Li. I design clear workflows for complex tools and thoughtful experiences for everyday life.</p><a className="circle-link" href="#work" aria-label="View selected work">↓</a></div>
     </section>
     <div className="ticker" aria-hidden="true"><div>{[...capabilities,...capabilities].map((item,i)=><span key={`${item}-${i}`}>{item}<b>✦</b></span>)}</div></div>
     <section className="work-section shell" id="work">
@@ -41,7 +41,7 @@ export default function Home() {
     </section>
     <section className="about shell" id="about">
       <div className="section-heading inverse"><span>02</span><h2>About</h2></div>
-      <div className="about-grid"><p className="about-lead">I turn layered rules and real-world behavior into digital products that feel <em>considered and clear.</em></p><div className="about-body"><p>My background in visual communication and operations gives me a practical view of product design: understand the system, find the friction, then make the path forward unmistakable.</p><p>I’m interested in B2B SaaS and consumer products, especially experiences that help people make better decisions.</p><a href="mailto:hello@evelynli.work">Let’s work together <span>↗</span></a></div></div>
+      <div className="about-grid"><p className="about-lead">I turn layered rules and real-world behavior into digital products that feel <em>considered and clear.</em></p><div className="about-body"><p>My background in visual communication and operations gives me a practical view of UI/UX design: understand the system, find the friction, then make the path forward unmistakable.</p><p>I’m interested in B2B SaaS and consumer products, especially experiences that help people make better decisions.</p><a href="mailto:hello@evelynli.work">Let’s work together <span>↗</span></a></div></div>
     </section>
     <footer className="footer shell"><p>© 2026 Evelyn Li</p><div><a href="mailto:hello@evelynli.work">Email</a><a href="#top">Back to top ↑</a></div></footer>
   </main>;
