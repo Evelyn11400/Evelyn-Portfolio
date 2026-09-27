@@ -7,6 +7,22 @@ const capabilities = [
   "Information Architecture", "Interaction Design", "Prototyping", "Usability Testing",
 ];
 
+function ShiftlinePreview() {
+  return <div className="shiftline-stage" aria-label="Shiftline restaurant operations dashboard concept">
+    <div className="shiftline-window">
+      <div className="shiftline-top"><span className="shiftline-brand"><i/> shiftline</span><span>WEEK OF SEP 28 — OCT 4 <b>↗</b></span></div>
+      <div className="shiftline-dashboard">
+        <aside className="shiftline-sidebar"><strong>Workspace</strong><span className="selected">▦ &nbsp; Schedule</span><span>◷ &nbsp; Breaks</span><span>◇ &nbsp; Tips</span><span>▤ &nbsp; Team</span></aside>
+        <div className="shiftline-content"><div className="shiftline-heading"><div><small>MANAGER DASHBOARD</small><h4>Sunday, Sep 27</h4></div><span className="shiftline-action">Publish schedule ↗</span></div>
+          <div className="shiftline-stats"><div><small>ON SHIFT</small><strong>24 <em>people</em></strong></div><div><small>BREAK COVERAGE</small><strong>Needs review</strong></div><div><small>TIP POOL</small><strong>Ready to preview</strong></div></div>
+          <div className="shiftline-columns"><div className="shiftline-panel"><b>Today's coverage</b><div><span>11:00</span><i/><i/><i/></div><div><span>14:30</span><i/><i className="warning"/><i/></div><div><span>17:00</span><i/><i/><i/></div><p>⚑ &nbsp; One break overlaps peak coverage</p></div><div className="shiftline-panel side"><b>Shift checklist</b><p>✓ &nbsp; Schedule drafted</p><p>✓ &nbsp; Team assigned</p><p>○ &nbsp; Review break coverage</p><p>○ &nbsp; Preview tip split</p></div></div>
+        </div>
+      </div>
+    </div>
+    <span className="shiftline-sticker">ONE CLEAR SHIFT<br/>AT A TIME ↗</span>
+  </div>;
+}
+
 function TempoPreview() {
   return (
     <div className="tempo-stage" aria-label="Tempo mobile product preview">
@@ -42,6 +58,11 @@ export default function Home() {
         <div className="project-meta"><span>01 Case Study</span><span>2025</span></div><TempoPreview/>
         <div className="project-copy"><div><h3>Tempo</h3><p>Planning life around energy, not just time.</p></div><span className="project-arrow">↗</span></div>
         <div className="tags"><span>UX Research</span><span>Product Strategy</span><span>Mobile UI</span></div>
+      </Link>
+      <Link className="project-card project-card-second" href="/work/shiftline">
+        <div className="project-meta"><span>02 Case Study</span><span>Concept · 2026</span></div><ShiftlinePreview/>
+        <div className="project-copy"><div><h3>Shiftline</h3><p>A clearer way to run the people side of a restaurant shift.</p></div><span className="project-arrow">↗</span></div>
+        <div className="tags"><span>B2B SaaS</span><span>Workflow UX</span><span>Product Strategy</span></div>
       </Link>
     </section>
     <footer className="footer shell"><p>© 2026 Evelyn Li</p><div><a href="mailto:hello@evelynli.work">Email</a><a href="#top">Back to top ↑</a></div></footer>
