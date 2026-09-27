@@ -69,17 +69,17 @@ export default function Home() {
       <div className="section-heading"><span>01</span><h2>Selected work</h2><p>Research-led products shaped through systems thinking and visual craft.</p></div>
       <Link className="project-card motion-project-card" href="/work/tempo">
         <div className="project-meta"><span>01 Case Study</span><span>2025</span></div><TempoPreview/>
-        <div className="project-copy"><div><h3>Tempo</h3><p>Planning life around energy, not just time.</p></div><span className="project-arrow">View</span></div>
+        <div className="project-copy"><div><h3>Tempo</h3><p>Planning life around energy, not just time.</p></div><span className="project-arrow"><span className="project-arrow-char" aria-hidden="true">↗</span></span></div>
         <div className="tags"><span>UX Research</span><span>Product Strategy</span><span>Mobile UI</span></div>
       </Link>
       <Link className="project-card project-card-second motion-project-card" href="/work/shiftline">
         <div className="project-meta"><span>02 Case Study</span><span>Concept · 2026</span></div><ShiftlinePreview/>
-        <div className="project-copy"><div><h3>Shiftline</h3><p>A clearer way to run the people side of a restaurant shift.</p></div><span className="project-arrow">View</span></div>
+        <div className="project-copy"><div><h3>Shiftline</h3><p>A clearer way to run the people side of a restaurant shift.</p></div><span className="project-arrow"><span className="project-arrow-char" aria-hidden="true">↗</span></span></div>
         <div className="tags"><span>B2B SaaS</span><span>Workflow UX</span><span>Product Strategy</span></div>
       </Link>
       <Link className="project-card project-card-third motion-project-card" href="/work/trace">
         <div className="project-meta"><span>03 Case Study</span><span>Concept · 2026</span></div><TracePreview/>
-        <div className="project-copy"><div><h3>Trace</h3><p>A release review workspace for teams building AI products.</p></div><span className="project-arrow">View</span></div>
+        <div className="project-copy"><div><h3>Trace</h3><p>A release review workspace for teams building AI products.</p></div><span className="project-arrow"><span className="project-arrow-char" aria-hidden="true">↗</span></span></div>
         <div className="tags"><span>B2B SaaS</span><span>AI Product Design</span><span>Enterprise UX</span></div>
       </Link>
     </section>
