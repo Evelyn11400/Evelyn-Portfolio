@@ -291,3 +291,8 @@
 .arrow-down:after{left:6px;bottom:3px;width:8px;height:8px;border-right:1.7px solid currentColor!important;border-bottom:1.7px solid currentColor!important;transform:rotate(45deg)}
 .arrow-up-right:before{left:4px;top:10px;width:15px;height:1.7px;background:currentColor!important;transform:rotate(-45deg);transform-origin:center}
 .arrow-up-right:after{right:3px;top:3px;width:8px;height:8px;border-top:1.7px solid currentColor!important;border-right:1.7px solid currentColor!important}
+
+
+/* Hero CTA arrow points right */
+.arrow-right:before{left:3px;top:10px;width:15px;height:1.7px;background:currentColor!important}
+.arrow-right:after{right:3px;top:6px;width:8px;height:8px;border-top:1.7px solid currentColor!important;border-right:1.7px solid currentColor!important;transform:rotate(45deg)}
