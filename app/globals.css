@@ -276,3 +276,36 @@
 
 /* Project card arrow: force monochrome text presentation */
 .project-arrow-char{font-family:Arial,Helvetica,sans-serif!important;font-variant-emoji:text;font-size:1.35rem;font-weight:400;line-height:1;display:block}
+
+
+/* Shiftline — audience + competitive analysis */
+.shiftline-audience{padding:130px 0}
+.shiftline-audience-head,.shiftline-competitive-head{display:grid;grid-template-columns:1.25fr .75fr;gap:80px;align-items:end;margin:26px 0 60px}
+.shiftline-audience-head h2,.shiftline-competitive-head h2{font-size:clamp(2.4rem,4vw,4.25rem);line-height:1;letter-spacing:-.055em;margin:0}
+.shiftline-audience-head p,.shiftline-competitive-head p{color:#68716c;line-height:1.7;margin:0}
+.shiftline-audience-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.shiftline-audience-grid article{border-top:1px solid #bfc8c2;padding:24px 20px 30px 0;min-height:245px}
+.shiftline-audience-grid span{font-size:.65rem;letter-spacing:.14em;font-weight:800;color:#6c8277}
+.shiftline-audience-grid h3{font-size:1.65rem;letter-spacing:-.04em;line-height:1.05;margin:48px 0 18px}
+.shiftline-audience-grid p{color:#68716c;line-height:1.6;margin:0}
+.shiftline-competitive{padding:130px 0;background:#eef3ef;color:#173e34}
+.shiftline-competitor-table{border-top:1px solid #aebdb4}
+.shiftline-competitor-row{display:grid;grid-template-columns:.65fr 1.25fr 1.45fr;gap:32px;padding:25px 0;border-bottom:1px solid #c8d2cc;align-items:start}
+.shiftline-competitor-row.header{font-size:.62rem;letter-spacing:.14em;font-weight:800;color:#71857a;padding:14px 0}
+.shiftline-competitor-row strong{font-size:1.2rem;letter-spacing:-.03em}
+.shiftline-competitor-row span{font-size:.9rem;line-height:1.55;color:#52675d}
+.shiftline-row-highlight{background:#173e34;color:#f5f7f3;margin:0 -22px;padding:25px 22px;border-bottom:0}
+.shiftline-row-highlight span{color:#d9e4dd}
+.shiftline-competitive-note{font-size:.7rem;color:#71857a;margin:18px 0 0}
+@media(max-width:760px){
+.shiftline-audience,.shiftline-competitive{padding:90px 0}
+.shiftline-audience-head,.shiftline-competitive-head{grid-template-columns:1fr;gap:24px;margin-bottom:45px}
+.shiftline-audience-head h2,.shiftline-competitive-head h2{font-size:2.35rem}
+.shiftline-audience-grid{grid-template-columns:1fr}
+.shiftline-audience-grid article{min-height:0;padding-bottom:35px}
+.shiftline-audience-grid h3{margin-top:28px}
+.shiftline-competitor-row{grid-template-columns:1fr;gap:8px;padding:24px 0}
+.shiftline-competitor-row.header{display:none}
+.shiftline-competitor-row span{font-size:.85rem}
+.shiftline-row-highlight{margin:0 -18px;padding:24px 18px}
+}
