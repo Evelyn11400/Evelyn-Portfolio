@@ -250,3 +250,26 @@
   .shiftline-strategy-flow i,.shiftline-ending:after{animation:none!important}
   .shiftline-strategy-flow span,.shiftline-decision-copy,.shiftline-decision-detail:before,.shiftline-product-screen:after{transition:none!important}
 }
+
+
+/* Homepage UI icons — CSS drawn to avoid platform emoji rendering */
+.arrow-icon{display:inline-block;width:18px;height:18px;position:relative}
+.arrow-icon:before{content:"";position:absolute;width:11px;height:11px;border-right:1.8px solid currentColor;border-bottom:1.8px solid currentColor}
+.arrow-down:before{left:3px;top:1px;transform:rotate(45deg)}
+.arrow-down:after{content:"";position:absolute;left:8px;top:1px;width:1.8px;height:14px;background:currentColor;border-radius:2px}
+.arrow-up-right:before{right:1px;top:1px;transform:rotate(-135deg)}
+.arrow-up-right:after{content:"";position:absolute;left:3px;top:9px;width:14px;height:1.8px;background:currentColor;transform:rotate(-45deg);transform-origin:right center;border-radius:2px}
+.project-arrow{display:grid;place-items:center}
+
+.nav-icon,.inline-flag,.check-icon,.trace-mark{display:inline-block;position:relative;flex:0 0 auto}
+.shiftline-sidebar span{display:flex;align-items:center;gap:8px}
+.nav-icon{width:12px;height:12px}
+.nav-icon-calendar{border:1px solid currentColor;border-radius:2px}
+.nav-icon-calendar:before{content:"";position:absolute;left:1px;right:1px;top:3px;border-top:1px solid currentColor}
+.nav-icon-clock{border:1px solid currentColor;border-radius:50%}
+.nav-icon-clock:before{content:"";position:absolute;width:1px;height:4px;background:currentColor;left:5px;top:2px}.nav-icon-clock:after{content:"";position:absolute;width:3px;height:1px;background:currentColor;left:5px;top:6px;transform:rotate(25deg);transform-origin:left}
+.nav-icon-diamond{width:9px;height:9px;border:1px solid currentColor;transform:rotate(45deg);margin-left:2px;margin-right:1px}
+.nav-icon-team:before,.nav-icon-team:after{content:"";position:absolute;border:1px solid currentColor;border-radius:50%;width:4px;height:4px;top:0}.nav-icon-team:before{left:1px}.nav-icon-team:after{right:0}.nav-icon-team{border-bottom:1px solid currentColor;border-radius:50%;height:11px}
+.inline-flag{width:10px;height:11px;border-left:1px solid currentColor;margin-right:7px;vertical-align:-1px}.inline-flag:before{content:"";position:absolute;left:1px;top:0;width:7px;height:5px;border:1px solid currentColor;border-left:0}
+.check-icon{width:10px;height:10px;border:1px solid currentColor;border-radius:50%;margin-right:7px;vertical-align:-1px}.check-icon.done:after{content:"";position:absolute;left:2px;top:1px;width:4px;height:2px;border-left:1px solid currentColor;border-bottom:1px solid currentColor;transform:rotate(-45deg)}
+.trace-preview-top>span:first-child{display:flex;align-items:center;gap:7px}.trace-mark{width:9px;height:9px;border:1px solid currentColor;transform:rotate(45deg)}
