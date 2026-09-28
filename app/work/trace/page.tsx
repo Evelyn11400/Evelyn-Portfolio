@@ -36,7 +36,50 @@ export default function TraceCaseStudy() {
       <article className="trace-decision"><div className="trace-decision-copy"><span>03 · RELEASE RECORD</span><h3>Turn a review into an accountable next step.</h3><p>The final view names unresolved blockers, the responsible owner, and the condition for another review. The decision stays linked to the exact candidate version.</p><p className="trace-decision-detail">Design choice: a hold is a clear state with a path forward, not a dead end.</p></div><TraceMock view="decision"/></article>
     </section>
     <section className="trace-roles"><div className="shell"><p className="eyebrow">DESIGNED FOR TEAMS</p><h2>Different roles. One release record.</h2><div className="trace-roles-grid"><article><span>PRODUCT</span><h3>What changed?</h3><p>See the tradeoffs that affect users and the launch recommendation.</p></article><article><span>ENGINEERING</span><h3>Where did it fail?</h3><p>Open examples with evaluation context and track follow-up work.</p></article><article><span>REVIEWER</span><h3>Who approved it?</h3><p>Give a decision with a reason, time, and visible ownership.</p></article></div></div></section>
-    <section className="case-block shell"><p className="eyebrow">BUSINESS MODEL</p><div><h2>Sell release review to the team responsible for shipping AI.</h2><p>The buyer is the Head of AI or Product at a company like Orbit AI. Trace is purchased as an annual SaaS subscription for each AI application the company ships. The product lead invites engineers and domain reviewers into one workspace, so adding reviewers does not create another seat charge.</p><p><strong>Proposed starting plan:</strong> $499 per application per month, billed annually. It includes 50,000 evaluated responses per month, version comparisons, review assignments, and a searchable decision history. Additional volume costs $49 per 10,000 evaluated responses. Enterprise contracts add SSO, audit exports, and negotiated volume.</p><p><strong>Why a team pays:</strong> every release requires people to reconcile test results, investigate failures, and document approval. Trace replaces that scattered review process with a shared release record. The prices and packaging are design hypotheses, not validated sales or revenue.</p></div></section>
+    <section className="trace-pricing shell" aria-labelledby="trace-pricing-title">
+      <div className="trace-pricing-intro">
+        <p className="eyebrow">BUSINESS MODEL</p>
+        <div>
+          <h2 id="trace-pricing-title">Plans that grow with the AI product.</h2>
+          <p>Trace uses a subscription model based on the number of AI products a team manages.</p>
+        </div>
+      </div>
+      <div className="trace-plan-grid" aria-label="Trace plan comparison">
+        <article className="trace-plan">
+          <span>STARTER</span>
+          <h3>For one AI product</h3>
+          <ul>
+            <li><b>1</b> AI product</li>
+            <li>Basic response testing</li>
+            <li>Compare AI versions</li>
+          </ul>
+        </article>
+        <article className="trace-plan trace-plan-featured">
+          <span>GROWTH</span>
+          <h3>For growing AI teams</h3>
+          <ul>
+            <li><b>Up to 5</b> AI products</li>
+            <li>Advanced response testing</li>
+            <li>Compare AI versions</li>
+            <li>Team review</li>
+            <li>API access</li>
+          </ul>
+        </article>
+        <article className="trace-plan">
+          <span>ENTERPRISE</span>
+          <h3>For large companies</h3>
+          <ul>
+            <li><b>Unlimited</b> AI products</li>
+            <li>Custom response testing</li>
+            <li>Compare AI versions</li>
+            <li>Team review</li>
+            <li>API access</li>
+            <li>Advanced security</li>
+          </ul>
+        </article>
+      </div>
+      <p className="trace-pricing-note">Pricing and plan limits are concept hypotheses for this case study.</p>
+    </section>
     <section className="case-ending"><div className="shell"><p>CONCEPT IN DEVELOPMENT</p><h2>Next: prototype the flagged-example review and test whether teams can make a release decision from the same evidence.</h2><Link href="/#work">Back to selected work ↗</Link></div></section>
   </main>;
 }
