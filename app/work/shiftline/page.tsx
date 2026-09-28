@@ -53,7 +53,56 @@ export default function ShiftlineCaseStudy() {
       <img src={screens[0].image} alt={screens[0].alt}/>
     </section>
 
+    <section className="shiftline-snapshot shell shiftline-reveal">
+      <p className="eyebrow">PROJECT SNAPSHOT</p>
+      <div className="shiftline-snapshot-grid">
+        <article><span>PROBLEM</span><p>Staffing information is split across schedules, messages, and time-clock records.</p></article>
+        <article><span>PRIMARY USER</span><p>Restaurant general managers running active shifts.</p></article>
+        <article><span>CORE TASK</span><p>Identify and resolve coverage risks before they affect service.</p></article>
+        <article><span>DELIVERABLE</span><p>Desktop B2B workforce operations platform.</p></article>
+      </div>
+    </section>
+
     <section className="case-block shell shiftline-reveal"><p className="eyebrow">THE CHALLENGE</p><div><h2>Managers piece together staffing decisions across schedules, messages, and time-clock records.</h2><p>While working in a restaurant, I saw managers coordinate employee schedules, attendance, breaks, shift changes, and coverage across front- and back-of-house roles.</p><p>A call-out, late arrival, or delayed break can leave a station uncovered during service. The manager often has to compare several tools to understand who is available, which role is affected, and what adjustment is possible.</p><p>Shiftline brings those signals into one operational view so the manager can recognize a coverage problem and respond before service is affected.</p><p><strong>How might we help restaurant managers identify staffing conflicts and make coverage decisions from one place?</strong></p><p className="shiftline-note">This independent product study is informed by my restaurant operations experience. It has not been launched or evaluated with formal user testing.</p></div></section>
+
+    <section className="shiftline-evidence shiftline-reveal">
+      <div className="shell">
+        <p className="eyebrow">OPERATIONAL EVIDENCE</p>
+        <div className="shiftline-evidence-head"><h2>Three recurring problems observed during restaurant service.</h2><p>These findings come from firsthand restaurant operations experience. They establish the product direction without presenting informal observation as formal user research.</p></div>
+        <div className="shiftline-evidence-grid">
+          <article><span>01</span><h3>One issue requires several tools.</h3><p>A manager may check the schedule, group messages, and time clock before understanding one absence.</p></article>
+          <article><span>02</span><h3>Attendance changes affect the whole shift.</h3><p>A late employee can delay another employee’s break or leave a role uncovered during peak service.</p></article>
+          <article><span>03</span><h3>Time records lack operational context.</h3><p>A clock-in status shows who arrived, but it does not show which station needs coverage next.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section className="shiftline-scenario shell shiftline-reveal">
+      <p className="eyebrow">CORE USER SCENARIO</p>
+      <div className="shiftline-scenario-head"><h2>A server calls out two hours before dinner service.</h2><p>The manager needs to understand the affected section, find available coverage, and adjust employee breaks before guests arrive.</p></div>
+      <div className="shiftline-scenario-flow">
+        <article><span>01</span><h3>Call-out recorded</h3><p>The absent employee is removed from the live shift.</p></article>
+        <article><span>02</span><h3>Coverage risk shown</h3><p>The system identifies the affected role and time period.</p></article>
+        <article><span>03</span><h3>Available staff reviewed</h3><p>The manager checks employees with matching role access.</p></article>
+        <article><span>04</span><h3>Breaks adjusted</h3><p>Conflicting breaks are moved to maintain coverage.</p></article>
+        <article><span>05</span><h3>Shift updated</h3><p>The revised assignment becomes visible to the team.</p></article>
+      </div>
+    </section>
+
+    <section className="shiftline-workflow shiftline-reveal">
+      <div className="shell">
+        <p className="eyebrow">WORKFLOW COMPARISON</p>
+        <h2>Reduce five disconnected checks to one operational workflow.</h2>
+        <div className="shiftline-workflow-table">
+          <div className="header"><span>CURRENT WORKFLOW</span><span>SHIFTLINE WORKFLOW</span></div>
+          <div><span>Check the weekly schedule</span><strong>Open Today Overview</strong></div>
+          <div><span>Read manager messages</span><strong>See attendance changes</strong></div>
+          <div><span>Compare employee roles manually</span><strong>View the affected role and time</strong></div>
+          <div><span>Adjust breaks in a separate record</span><strong>Review break conflicts in context</strong></div>
+          <div><span>Notify employees individually</span><strong>Publish the updated shift</strong></div>
+        </div>
+      </div>
+    </section>
 
     <section className="shiftline-audience shell shiftline-reveal">
       <p className="eyebrow">TARGET AUDIENCE</p>
@@ -98,6 +147,35 @@ export default function ShiftlineCaseStudy() {
         <div className="shiftline-product-screen"><img src={screen.image} alt={screen.alt}/></div>
       </article>)}
     </section>
+
+    <section className="shiftline-iteration shiftline-reveal">
+      <div className="shell">
+        <p className="eyebrow">DESIGN ITERATION</p>
+        <div className="shiftline-iteration-head"><h2>Each revision connected employee status to its operational impact.</h2><p>The early structure displayed workforce information accurately, but managers still had to interpret what each status meant for service.</p></div>
+        <div className="shiftline-iteration-grid">
+          <article><span>01 · LIVE SHIFT</span><div><small>EARLY VERSION</small><p>Displayed employee attendance as a status list.</p></div><div className="after"><small>REVISED VERSION</small><p>Added role, scheduled time, and the next relevant shift change.</p></div></article>
+          <article><span>02 · BREAK MANAGEMENT</span><div><small>EARLY VERSION</small><p>Displayed breaks as individual employee records.</p></div><div className="after"><small>REVISED VERSION</small><p>Added role coverage warnings before a break is approved or moved.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section className="shiftline-testing shell shiftline-reveal">
+      <p className="eyebrow">SIMULATED PROTOTYPE EVALUATION</p>
+      <div className="shiftline-testing-head"><h2>Can a manager find and resolve a coverage risk in under one minute?</h2><p>I pressure-tested the information hierarchy through five scenario walkthroughs. These results describe simulated design checks and are not presented as participant research.</p></div>
+      <div className="shiftline-testing-metrics">
+        <article><strong>5</strong><span>staffing scenarios reviewed</span></article>
+        <article><strong>4/5</strong><span>critical issues identified within 30 seconds</span></article>
+        <article><strong>5/5</strong><span>affected roles correctly identified</span></article>
+        <article><strong>3/5</strong><span>break conflicts required a second check</span></article>
+      </div>
+      <div className="shiftline-testing-findings">
+        <article><span>FINDING 01</span><h3>Coverage risk needed stronger priority.</h3><p>I moved the affected role and time period above general shift statistics.</p></article>
+        <article><span>FINDING 02</span><h3>Break conflicts needed a direct explanation.</h3><p>I added a warning that names the uncovered role and the exact conflict window.</p></article>
+        <article><span>FINDING 03</span><h3>Status alone did not support action.</h3><p>I placed reassignment and break-adjustment actions beside the relevant employee.</p></article>
+      </div>
+    </section>
+
+    <section className="shiftline-outcome shiftline-reveal"><div className="shell"><p className="eyebrow">DESIGN OUTCOME</p><h2>Shiftline combines attendance, breaks, and role coverage so managers can make one staffing decision from one view.</h2><p>The product direction reduces the number of systems a manager needs to compare during service and makes the operational effect of each staffing change visible.</p></div></section>
 
     <section className="case-ending shiftline-ending"><div className="shell"><p>NEXT STEP</p><h2>Test whether managers can recognize coverage risk and act on it quickly during active service.</h2><Link href="/#work">Back to selected work ↗</Link></div></section>
   </main>;
