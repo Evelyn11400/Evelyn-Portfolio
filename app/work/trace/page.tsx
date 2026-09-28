@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import TracePlanSelector from "./TracePlanSelector";
 import "./trace.css";
 
 export const metadata: Metadata = {
@@ -44,40 +45,7 @@ export default function TraceCaseStudy() {
           <p>Trace uses a subscription model based on the number of AI products a team manages.</p>
         </div>
       </div>
-      <div className="trace-plan-grid" aria-label="Trace plan comparison">
-        <article className="trace-plan">
-          <span>STARTER</span>
-          <h3>For one AI product</h3>
-          <ul>
-            <li><b>1</b> AI product</li>
-            <li>Basic response testing</li>
-            <li>Compare AI versions</li>
-          </ul>
-        </article>
-        <article className="trace-plan trace-plan-featured">
-          <span>GROWTH</span>
-          <h3>For growing AI teams</h3>
-          <ul>
-            <li><b>Up to 5</b> AI products</li>
-            <li>Advanced response testing</li>
-            <li>Compare AI versions</li>
-            <li>Team review</li>
-            <li>API access</li>
-          </ul>
-        </article>
-        <article className="trace-plan">
-          <span>ENTERPRISE</span>
-          <h3>For large companies</h3>
-          <ul>
-            <li><b>Unlimited</b> AI products</li>
-            <li>Custom response testing</li>
-            <li>Compare AI versions</li>
-            <li>Team review</li>
-            <li>API access</li>
-            <li>Advanced security</li>
-          </ul>
-        </article>
-      </div>
+      <TracePlanSelector />
       <p className="trace-pricing-note">Pricing and plan limits are proposed for this case study.</p>
     </section>
     <section className="case-ending"><div className="shell"><p>IN DEVELOPMENT</p><h2>Next: prototype the flagged-example review and test whether teams can make a release decision from the same evidence.</h2><Link href="/#work">Back to selected work ↗</Link></div></section>
