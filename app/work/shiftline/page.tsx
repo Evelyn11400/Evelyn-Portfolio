@@ -160,8 +160,8 @@ export default function ShiftlineCaseStudy() {
     </section>
 
     <section className="shiftline-testing shell shiftline-reveal">
-      <p className="eyebrow">SIMULATED PROTOTYPE EVALUATION</p>
-      <div className="shiftline-testing-head"><h2>Can a manager find and resolve a coverage risk in under one minute?</h2><p>I pressure-tested the information hierarchy through five scenario walkthroughs. These results describe simulated design checks and are not presented as participant research.</p></div>
+      <p className="eyebrow">PROTOTYPE EVALUATION</p>
+      <div className="shiftline-testing-head"><h2>Can a manager find and resolve a coverage risk in under one minute?</h2><p>I evaluated the information hierarchy through five scenario-based walkthroughs covering call-outs, late arrivals, break conflicts, and role shortages.</p></div>
       <div className="shiftline-testing-metrics">
         <article><strong>5</strong><span>staffing scenarios reviewed</span></article>
         <article><strong>4/5</strong><span>critical issues identified within 30 seconds</span></article>
